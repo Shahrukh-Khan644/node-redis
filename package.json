@@ -13,16 +13,22 @@
     "gh-pages": "gh-pages -d ./documentation -e ./documentation -u 'documentation-bot <documentation@bot>'"
   },
   "devDependencies": {
+    "@eslint/css": "^0.7.0",
+    "@eslint/js": "^9.25.0",
+    "@eslint/json": "^0.12.0",
+    "@eslint/markdown": "^6.4.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.11.16",
     "eslint": "^9.25.0",
     "gh-pages": "^6.1.1",
-    "mocha": "^10.2.0",
+    "globals": "^16.0.0",
+    "mocha": "^10.8.2",
     "nyc": "^15.1.0",
     "release-it": "^17.0.3",
-    "tsx": "^4.7.0",
+    "tsx": "^4.19.3",
     "typedoc": "^0.25.7",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.30.1"
   }
 }

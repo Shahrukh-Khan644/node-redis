@@ -30,6 +30,12 @@ pipeline {
 	    }
 	}
 
+	stage('Lint') {
+	    steps {
+		sh 'npm run lint'
+	    }
+	}
+
 	stage('Generate Documentation') {
 	    steps {
 		sh 'npm run documentation'
