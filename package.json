@@ -8,6 +8,7 @@
     "test-single": "TS_NODE_PROJECT='./packages/test-utils/tsconfig.json' mocha --require ts-node/register/transpile-only ",
     "test": "npm run test -ws --if-present",
     "build": "tsc --build",
+    "lint": "eslint ."
     "documentation": "typedoc --out ./documentation",
     "gh-pages": "gh-pages -d ./documentation -e ./documentation -u 'documentation-bot <documentation@bot>'"
   },
